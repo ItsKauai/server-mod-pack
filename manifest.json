@@ -1,0 +1,844 @@
+{
+    "version":  "29cd735f58b5",
+    "published":  "2026-10-07 17:00",
+    "notes":  "Initial modpack",
+    "managedFolders":  [
+                           "mods"
+                       ],
+    "files":  [
+                  {
+                      "path":  "mods/[Neoforge]ctov-26-2-4.1.0.jar",
+                      "sha256":  "c3244e7262617dc69f4fa27016883107d026295c47aca5929ce39b1f51651e03",
+                      "size":  7141315,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/%5BNeoforge%5Dctov-26-2-4.1.0.jar"
+                  },
+                  {
+                      "path":  "mods/adchimneys-26.2.0.1-neoforge-build.0128.jar",
+                      "sha256":  "7d79c6fd302b521275bc75cd9a8eed0b46787af096b699cf6b7c16e8d88a1cc0",
+                      "size":  324256,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/adchimneys-26.2.0.1-neoforge-build.0128.jar"
+                  },
+                  {
+                      "path":  "mods/addonslib-neoforge-26.2-1.0.jar",
+                      "sha256":  "402d3bd999b94424f358dadfe4a25e3ec0aa50505ed8efab0430dbf763beaf3f",
+                      "size":  129659,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/addonslib-neoforge-26.2-1.0.jar"
+                  },
+                  {
+                      "path":  "mods/adlods-26.2.0.2-neoforge-build.0134.jar",
+                      "sha256":  "7af7d022d55971c32ad246b0d5e6cf81891e955a229c16aeda86f774f23431a6",
+                      "size":  241324,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/adlods-26.2.0.2-neoforge-build.0134.jar"
+                  },
+                  {
+                      "path":  "mods/advancednetherite-neoforge-2.4.2-26.2.jar",
+                      "sha256":  "e7c0e1afee5fa1db1c7dc60612153ddc49d63cedfa6d7715a64c0f7a8c9dc3d2",
+                      "size":  565226,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/advancednetherite-neoforge-2.4.2-26.2.jar"
+                  },
+                  {
+                      "path":  "mods/agritechevolved-3.1.0.3+neoforge-mc26.2.jar",
+                      "sha256":  "3107db3a6116229a584d7392154481df9687e4fd10ce676470492a4e1869288d",
+                      "size":  1170933,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/agritechevolved-3.1.0.3%2Bneoforge-mc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/agritechtwo-3.0.0.4+neoforge-mc-26.2.jar",
+                      "sha256":  "5386444b06deb787d9decedaa93237821b48005678227607106004d961450264",
+                      "size":  1128186,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/agritechtwo-3.0.0.4%2Bneoforge-mc-26.2.jar"
+                  },
+                  {
+                      "path":  "mods/alexsmobs-2.1.9-neoforge+26.2.jar",
+                      "sha256":  "d19295c6aa673e132407650f38f54bf6b2233e10d5297f8e8ae6ca82d8657ec3",
+                      "size":  27572491,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/alexsmobs-2.1.9-neoforge%2B26.2.jar"
+                  },
+                  {
+                      "path":  "mods/Amplified_Nether_26.2_v1.2.16.jar",
+                      "sha256":  "fc49dc7f0b9e4cef665e60a97f29b5589025fb9e19b13222d9767e178093eaed",
+                      "size":  108430,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Amplified_Nether_26.2_v1.2.16.jar"
+                  },
+                  {
+                      "path":  "mods/apple_cows-neoforge-26.2-1.0.2.jar",
+                      "sha256":  "d6f9e1f25b37339294dda2c4a4fd5c354b24806fc9bba5cc9ccf3433a85f1228",
+                      "size":  425075,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/apple_cows-neoforge-26.2-1.0.2.jar"
+                  },
+                  {
+                      "path":  "mods/appleskin-neoforge-mc26.2-3.0.10.jar",
+                      "sha256":  "03d07db47d21fc148d2c3348a9c2f2cf385d216ef34276f77abbfced3a18e35f",
+                      "size":  80690,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/appleskin-neoforge-mc26.2-3.0.10.jar"
+                  },
+                  {
+                      "path":  "mods/appliedenergistics2-26.2.1-alpha.jar",
+                      "sha256":  "2345ed127f4ffb8bbd4643c93de3443fe29d89f27a220576b31c858d54357689",
+                      "size":  8396211,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/appliedenergistics2-26.2.1-alpha.jar"
+                  },
+                  {
+                      "path":  "mods/architectury-neoforge-21.0.7.jar",
+                      "sha256":  "40e598b365e645ea0335400d59bde08eea59aabe0646869b5d6e36fc346ce747",
+                      "size":  581749,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/architectury-neoforge-21.0.7.jar"
+                  },
+                  {
+                      "path":  "mods/balm-neoforge-26.2-26.2.0.6.jar",
+                      "sha256":  "8b25560955fce6dc1f73e783451f04971058317a9082c094aa1c7925c9440c2c",
+                      "size":  1175324,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/balm-neoforge-26.2-26.2.0.6.jar"
+                  },
+                  {
+                      "path":  "mods/bclib-26.2.3.jar",
+                      "sha256":  "7a87a11c407eb932446f11c131497473ec6fb23122d01f6592b5b99465f1ae17",
+                      "size":  2161784,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/bclib-26.2.3.jar"
+                  },
+                  {
+                      "path":  "mods/betterarcheology-neoforge-26.2-1.3.8.jar",
+                      "sha256":  "6f3cc82463feb76d1ea4ae1591cb2ecadd26f1176260230d4272b4e4f490b692",
+                      "size":  3119554,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/betterarcheology-neoforge-26.2-1.3.8.jar"
+                  },
+                  {
+                      "path":  "mods/betterdays-26.2-neoforge-4.1.1.7-NEOFORGE.jar",
+                      "sha256":  "c1f0e3741f94d2a882ea180f3e914c5e218c5d6534411607789d69ee7dc1ef65",
+                      "size":  580254,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/betterdays-26.2-neoforge-4.1.1.7-NEOFORGE.jar"
+                  },
+                  {
+                      "path":  "mods/BetterEnd-26.2.3.jar",
+                      "sha256":  "7482884b45cbca005b93961ec0d439a67a0d4b4addd616626cd4cfaa89cba107",
+                      "size":  97928651,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/BetterEnd-26.2.3.jar"
+                  },
+                  {
+                      "path":  "mods/BetterF3-19.0.0-NeoForge-26.2.jar",
+                      "sha256":  "b2249509bb1ce8c0d242930ad2e259ee0465c7077371da98bd28cc69b27972e4",
+                      "size":  496725,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/BetterF3-19.0.0-NeoForge-26.2.jar"
+                  },
+                  {
+                      "path":  "mods/betterspawnercontrol-26.2.0-4.8.jar",
+                      "sha256":  "74d5cffe3942d817876d505164f0b8f33b43e4aaaca115e69ab05cd28c56d358",
+                      "size":  36405,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/betterspawnercontrol-26.2.0-4.8.jar"
+                  },
+                  {
+                      "path":  "mods/better-trees-1.9.3.jar",
+                      "sha256":  "e07b65867c8e50267c6ec511601b7695a9a5d7fe94dd088526ed8de71ee6c660",
+                      "size":  542874,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/better-trees-1.9.3.jar"
+                  },
+                  {
+                      "path":  "mods/BiomesOPlenty-neoforge-26.2-26.2.0.0.24.jar",
+                      "sha256":  "724b502468e6a93b65351b8c70d822fb015170c48a973f96ab1550bd760fd761",
+                      "size":  23007946,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/BiomesOPlenty-neoforge-26.2-26.2.0.0.24.jar"
+                  },
+                  {
+                      "path":  "mods/cc-tweaked-26.2-forge-1.120.2.jar",
+                      "sha256":  "f9b40f9470bed039547e58be537a64847724a837a4c83f4135109672094e81a4",
+                      "size":  2615727,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/cc-tweaked-26.2-forge-1.120.2.jar"
+                  },
+                  {
+                      "path":  "mods/Chimes-v2.1.2-26.2-NeoForge.jar",
+                      "sha256":  "920e737185ca6c6de099925852aa3607dadf06824034e9ca704f1ac54a24960c",
+                      "size":  12489508,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Chimes-v2.1.2-26.2-NeoForge.jar"
+                  },
+                  {
+                      "path":  "mods/cloth-config-26.2.155.jar",
+                      "sha256":  "650cdc79fcb3332dd08d75634443b93b012dba49b748359a4a97f0975bc55c31",
+                      "size":  1135847,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/cloth-config-26.2.155.jar"
+                  },
+                  {
+                      "path":  "mods/Clumps-neoforge-26.2-26.2.1.jar",
+                      "sha256":  "952500fe37359cc26a3fa988ee6172adbf233b1a3cc629f04a53ddd5cf4d05a9",
+                      "size":  18765,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Clumps-neoforge-26.2-26.2.1.jar"
+                  },
+                  {
+                      "path":  "mods/codxlib-1.5.1-neoforge+26.2.jar",
+                      "sha256":  "1eea6d3286d8a01ddb9d86c04566f0b6f358f4cfd51aa7b624fdbe6f8a36ef1c",
+                      "size":  192379,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/codxlib-1.5.1-neoforge%2B26.2.jar"
+                  },
+                  {
+                      "path":  "mods/collective-26.2.0-8.39.jar",
+                      "sha256":  "ce0704323bc06d381ed0aa63029fcd9f78289120d70c6ea4a8a6c8cf9f4ed26a",
+                      "size":  1084412,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/collective-26.2.0-8.39.jar"
+                  },
+                  {
+                      "path":  "mods/ConfigAPI-CJ-neoforge-stable-mc-26.2-26.2-3.3.0.jar",
+                      "sha256":  "0d82b3723f3b4074065a448edf0e8f0f955c9af6c44c714b7aac7ec12c2dd9d8",
+                      "size":  500773,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/ConfigAPI-CJ-neoforge-stable-mc-26.2-26.2-3.3.0.jar"
+                  },
+                  {
+                      "path":  "mods/Continents_26.2_v1.1.14.jar",
+                      "sha256":  "35a5dfe6789f37c12c966eb27c16c07e19d797088ed99d02a4e6e4f687fef1b0",
+                      "size":  60529,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Continents_26.2_v1.1.14.jar"
+                  },
+                  {
+                      "path":  "mods/cristellib-neoforge-26.2-3.1.10.jar",
+                      "sha256":  "d1e8fdf262df7aad22b00db0aa18dc3874363378a59081ddddb9b492ea4d1e83",
+                      "size":  580503,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/cristellib-neoforge-26.2-3.1.10.jar"
+                  },
+                  {
+                      "path":  "mods/cropsloverain-3.2.1.jar",
+                      "sha256":  "49996ac38484913ad242b376f92d88bab77f0c8f9d9bc941cee6a12c604e37b8",
+                      "size":  35355,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/cropsloverain-3.2.1.jar"
+                  },
+                  {
+                      "path":  "mods/cupboard-26.2-4.1.jar",
+                      "sha256":  "d857ea9963ccf2aacd1b8004e9a0b8be3c9ba221419995cf9c05bf786a1ba4e1",
+                      "size":  34235,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/cupboard-26.2-4.1.jar"
+                  },
+                  {
+                      "path":  "mods/DistantHorizons-3.3.3-26.2-fabric-neoforge.jar",
+                      "sha256":  "abd4b8504c703d6a4517c154fdcef8c9a9da12599a653b3bedcfb100788cd2be",
+                      "size":  27766022,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DistantHorizons-3.3.3-26.2-fabric-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-ancient-city-overhaul-3.4 [NeoForge].jar",
+                      "sha256":  "1f9db19a0997e5fa2c86a97f377c748ccc287b776a0ab5de5f0a227299279211",
+                      "size":  1070269,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-ancient-city-overhaul-3.4%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-desert-temple-overhaul-v2.1 [NeoForge].jar",
+                      "sha256":  "9c2653a76d7ca1f8d0ba1454677bfce980c3165927e365cecb68ed8786ab6f3f",
+                      "size":  409007,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-desert-temple-overhaul-v2.1%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-mineshaft-overhaul-1.1 [NeoForge].jar",
+                      "sha256":  "24679ff97b8386257f3e0afec461c9b259161ede6f1dee17f55822845163306d",
+                      "size":  1288125,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-mineshaft-overhaul-1.1%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-ocean-monument-overhaul-2.2.1 [NeoForge].jar",
+                      "sha256":  "d27a30f95c01d1049650e6d7dfd2976097786853c712168791cd9c1923d72ef5",
+                      "size":  3261493,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-ocean-monument-overhaul-2.2.1%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-pillager-outpost-overhaul-v3.3 [NeoForge].jar",
+                      "sha256":  "f33e58aa5b72c6b687453d60b8c29911cfd50ccbf4ca41302ab834d0fa06f20d",
+                      "size":  451784,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-pillager-outpost-overhaul-v3.3%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-stronghold-overhaul-v2.4.0 [NeoForge].jar",
+                      "sha256":  "c6e7ffa2453e24440a959b1b834f1e392b05d62386d0edf159511c955554fc86",
+                      "size":  3255225,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-stronghold-overhaul-v2.4.0%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-swamp-hut-overhaul-v2.3 [NeoForge].jar",
+                      "sha256":  "292febb012004a3f94b70061121ead7bf7d26a22ec9978bda84d3fdfac49370b",
+                      "size":  119046,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-swamp-hut-overhaul-v2.3%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DnT-woodland-mansion-overhaul-2.1 [NeoForge].jar",
+                      "sha256":  "6204cdd545f2926476e62a15f026e0bfce92588d0e1d4e77c3a4fdc4211db4c2",
+                      "size":  5865009,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DnT-woodland-mansion-overhaul-2.1%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/DungeonCrawl-NeoForge-26.2-2.3.17.jar",
+                      "sha256":  "52b4e645e65a90eaba22c7ca1cf415c4f0b7e5489780a4fad4b0c00926539f4b",
+                      "size":  726604,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/DungeonCrawl-NeoForge-26.2-2.3.17.jar"
+                  },
+                  {
+                      "path":  "mods/dungeons-and-taverns-5.3.1 [NeoForge].jar",
+                      "sha256":  "a215da3c5e929c1b6fca93a31b246856bd5dd172859d936b2c1cb90edbdc598e",
+                      "size":  39640413,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/dungeons-and-taverns-5.3.1%20%5BNeoForge%5D.jar"
+                  },
+                  {
+                      "path":  "mods/Ecologics-NeoFab-26.2-2.6.0.jar",
+                      "sha256":  "8fe7854a800121a3e26c521ba71c08c3db8d2da6b1e147f999cb42789f91165d",
+                      "size":  2952774,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Ecologics-NeoFab-26.2-2.6.0.jar"
+                  },
+                  {
+                      "path":  "mods/edf-remastered-5.0.2.jar",
+                      "sha256":  "e5c045ba50c4f7dd6e1e0b7f08848aecd80e26845527065f5adfd5f2eae9e0b4",
+                      "size":  6841557,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/edf-remastered-5.0.2.jar"
+                  },
+                  {
+                      "path":  "mods/enchantments-expansion-1.2.0-[26.2].jar",
+                      "sha256":  "09e561b96b978a19c0cd3ffb53a585cbb5294de90b196db889c3dc38e94f8d37",
+                      "size":  360909,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/enchantments-expansion-1.2.0-%5B26.2%5D.jar"
+                  },
+                  {
+                      "path":  "mods/end_villager_outpost-1.0.0 Neoforge 26.2.jar",
+                      "sha256":  "037d700c2451e2e43eec35509465f3234fc3450358d9615181b65f8e1cc52cba",
+                      "size":  70038,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/end_villager_outpost-1.0.0%20Neoforge%2026.2.jar"
+                  },
+                  {
+                      "path":  "mods/Enderite-CJ-neoforge-stable-mc-26.2-26.2-2.4.5.jar",
+                      "sha256":  "58ec891bb4f4c6043d8363236e02963bd3fe2753dcf0501b7e38292e47a894d8",
+                      "size":  420176,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Enderite-CJ-neoforge-stable-mc-26.2-26.2-2.4.5.jar"
+                  },
+                  {
+                      "path":  "mods/enderitemod-neoforge-26.2-1.9.1.jar",
+                      "sha256":  "c2b1b712d89cedf456b30d82de5323fc0c0a0f23a8264308674dc202b84d3952",
+                      "size":  1888180,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/enderitemod-neoforge-26.2-1.9.1.jar"
+                  },
+                  {
+                      "path":  "mods/endrem-neoforge-26.2-6.2.1.jar",
+                      "sha256":  "482510d1d95f995db5d5ecc1ff38fdf6b329c2f1a8b0bed67f295dff01d95531",
+                      "size":  935478,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/endrem-neoforge-26.2-6.2.1.jar"
+                  },
+                  {
+                      "path":  "mods/entity_model_features-3.3.11-26.2-neoforge.jar",
+                      "sha256":  "3e73f35fb43cd3cf23d9f48f6a9f737dd0eff5ec21ef3cb3ca4e1301b4574da1",
+                      "size":  664752,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/entity_model_features-3.3.11-26.2-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/entity_texture_features-7.2.5-26.2-neoforge.jar",
+                      "sha256":  "124d3ef3b52afbac9e716bdb72260a604d207cc937a2dfc9c22911f9ab74eac3",
+                      "size":  793300,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/entity_texture_features-7.2.5-26.2-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/Epic Jungle Temples v1.0.2.jar",
+                      "sha256":  "2cbec91d588216260b146aaaa4087ed6b157e84949c6455c137e338573300fdb",
+                      "size":  4221257,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Epic%20Jungle%20Temples%20v1.0.2.jar"
+                  },
+                  {
+                      "path":  "mods/epic-structures-dungeons-1.2.4.jar",
+                      "sha256":  "58683ae37b2511e85a3d34854b15e16be6be5eb0f85bf511fab206b4adf0470d",
+                      "size":  17317252,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/epic-structures-dungeons-1.2.4.jar"
+                  },
+                  {
+                      "path":  "mods/Explorify v1.6.5.mod.jar",
+                      "sha256":  "2dc76398b48b2aae9b4024642da098b0880125572de160cb5ecf91d102890cad",
+                      "size":  767884,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Explorify%20v1.6.5.mod.jar"
+                  },
+                  {
+                      "path":  "mods/FarmersDelight-26.2-1.3.4.jar",
+                      "sha256":  "39631ab2e9e27870adcf77e63b37867dddc5b3f36cf90a14d7399736da94ab38",
+                      "size":  3355509,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/FarmersDelight-26.2-1.3.4.jar"
+                  },
+                  {
+                      "path":  "mods/forgeendertech-26.2.0.1-neoforge-build.0084.jar",
+                      "sha256":  "0dc6e08f2ef72ff6a620cba177e38446eed7976f0a3d10a2f5292e395345f389",
+                      "size":  589381,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/forgeendertech-26.2.0.1-neoforge-build.0084.jar"
+                  },
+                  {
+                      "path":  "mods/formations-1.0.4-neoforge-mc26.2.jar",
+                      "sha256":  "25afd245b85361149eb1227c68d4c4518536c6862f030efea99639491fce475b",
+                      "size":  290984,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/formations-1.0.4-neoforge-mc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/formationsnether-1.0.5a-mc1.21+.jar",
+                      "sha256":  "a9f196053c2a7706d7ce938cfa27b80299755898c58e585c2d8a25050ad98808",
+                      "size":  941764,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/formationsnether-1.0.5a-mc1.21%2B.jar"
+                  },
+                  {
+                      "path":  "mods/formationsoverworld-1.0.5a-mc1.21+.jar",
+                      "sha256":  "bfc0369c5a5d341420712017bc5a1abf91091b517c0026be8c615d625a346bc6",
+                      "size":  873168,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/formationsoverworld-1.0.5a-mc1.21%2B.jar"
+                  },
+                  {
+                      "path":  "mods/framework-neoforge-26.2-0.13.26.jar",
+                      "sha256":  "038ec8f21c77c0a396266abbdb46f4b44b7e5977b3836e056f1f9da2dffe5cd1",
+                      "size":  516976,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/framework-neoforge-26.2-0.13.26.jar"
+                  },
+                  {
+                      "path":  "mods/friendsandfoes-neoforge-4.0.27+mc26.2.jar",
+                      "sha256":  "f607b1bce59774950a2528ea4ccc78e470f6ab8dfbe3b6192533753cc904f94c",
+                      "size":  4277637,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/friendsandfoes-neoforge-4.0.27%2Bmc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/fusion-1.3.14-neoforge-mc26.2.jar",
+                      "sha256":  "299047935e68c359463c3a8f90dac6c4981aedbdc5e31d1033f8ceb85dd38b48",
+                      "size":  937531,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/fusion-1.3.14-neoforge-mc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/geckolib-neoforge-26.2-5.5.4.jar",
+                      "sha256":  "4cc81f5d7bc2d728a18e9cbbf55732ca4130458784851861337c54372b0ea502",
+                      "size":  1151765,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/geckolib-neoforge-26.2-5.5.4.jar"
+                  },
+                  {
+                      "path":  "mods/Geophilic v3.6.mod.jar",
+                      "sha256":  "5df284ed678c8f44d5f9b015736c18858d8b5706128bbe129fc35bc23208bd84",
+                      "size":  906446,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Geophilic%20v3.6.mod.jar"
+                  },
+                  {
+                      "path":  "mods/giant_natural_additions-1.0.0 Neoforge 26.2.jar",
+                      "sha256":  "7865f9ad35aaa07f3f218af54f6eae0b81abb1d306036f96c24d641ca3522173",
+                      "size":  1329451,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/giant_natural_additions-1.0.0%20Neoforge%2026.2.jar"
+                  },
+                  {
+                      "path":  "mods/GlitchCore-neoforge-26.2-26.2.0.0.0.jar",
+                      "sha256":  "46c983e79a4310865e542e6e0b8c4c13c09af63e1fca0ce15f0fd5346065a4f4",
+                      "size":  97833,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/GlitchCore-neoforge-26.2-26.2.0.0.0.jar"
+                  },
+                  {
+                      "path":  "mods/goblintraders-neoforge-26.2-1.12.0.jar",
+                      "sha256":  "cf52072a142dab253d55180b699c53c9ea4c7df1e1610759484d8d723bc3309b",
+                      "size":  540081,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/goblintraders-neoforge-26.2-1.12.0.jar"
+                  },
+                  {
+                      "path":  "mods/gravestone-neoforge-1.0.40+26.2.jar",
+                      "sha256":  "9ff810e962fbfc84e29c0cc4f1b3dc768504aa3a262903a6e896b59cb4d0c328",
+                      "size":  335397,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/gravestone-neoforge-1.0.40%2B26.2.jar"
+                  },
+                  {
+                      "path":  "mods/guardvillagers-4.0.3-26.2.0.jar",
+                      "sha256":  "331eca8e6e65652e2596b58be09deac70cdacaf8401a6a7d5eaac61a2cac586f",
+                      "size":  293994,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/guardvillagers-4.0.3-26.2.0.jar"
+                  },
+                  {
+                      "path":  "mods/guideme-26.2.1-alpha.jar",
+                      "sha256":  "52bf15cffc0b635bfd2596e856c47a51153e2767cfa49530df4bbf0e969b038d",
+                      "size":  5213254,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/guideme-26.2.1-alpha.jar"
+                  },
+                  {
+                      "path":  "mods/ImmediatelyFast-NeoForge-1.16.5+26.2.jar",
+                      "sha256":  "3261318ad48e888fa4abcab2dcf332717a43886c26107e21bf2ce0f527d4fb2c",
+                      "size":  110491,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/ImmediatelyFast-NeoForge-1.16.5%2B26.2.jar"
+                  },
+                  {
+                      "path":  "mods/infinity-cave-0.92-neoforge.jar",
+                      "sha256":  "143f4f8b311d5a6cbaf54ad4beed691b15133905216a9c7058e52f9c853fb7d5",
+                      "size":  7898433,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/infinity-cave-0.92-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/iris-neoforge-1.11.4+mc26.2.jar",
+                      "sha256":  "44dd20ede30079750681ed8aef1386479ce52b13a9460a3b0a38609f885e0282",
+                      "size":  2775454,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/iris-neoforge-1.11.4%2Bmc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/ironbookshelves-26.2-1.4.13-neoforge.jar",
+                      "sha256":  "eec4a28f025b1e449e5bf835be460ffbe3afabb95a3b453312322d729312501c",
+                      "size":  182627,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/ironbookshelves-26.2-1.4.13-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/Jade-mc26.2-NeoForge-26.2.10.jar",
+                      "sha256":  "319a0d21a003bdaa4ef3c6c8288f300041ff4dcc2bbd3e65d9586033bab41c63",
+                      "size":  1016197,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Jade-mc26.2-NeoForge-26.2.10.jar"
+                  },
+                  {
+                      "path":  "mods/jei-26.2-neoforge-30.39.0.233.jar",
+                      "sha256":  "fb57a2989235cf95c2c3db8b157c8229a39b51e070dfaa329ecb3d5611e0c8b7",
+                      "size":  2352989,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/jei-26.2-neoforge-30.39.0.233.jar"
+                  },
+                  {
+                      "path":  "mods/lambdynamiclights-4.12.3+26.2.jar",
+                      "sha256":  "6a806306fcf60e4697a350cbcbe27fb28739c6b6aeabe152cbac9d47ea3e8995",
+                      "size":  1344044,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/lambdynamiclights-4.12.3%2B26.2.jar"
+                  },
+                  {
+                      "path":  "mods/lithium-neoforge-0.25.3+mc26.2.jar",
+                      "sha256":  "7a080146f5c428e3a4a34cc3526c57c71cace5e962019081cb1d45c9d55dec7a",
+                      "size":  904073,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/lithium-neoforge-0.25.3%2Bmc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/lithostitched-1.8.0+beta3-neoforge-26.2.jar",
+                      "sha256":  "dac103a37ffac29b5471ad0487cea7c441c5d2252bdc1dbad5b17fb474fa5b10",
+                      "size":  987434,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/lithostitched-1.8.0%2Bbeta3-neoforge-26.2.jar"
+                  },
+                  {
+                      "path":  "mods/mcwbiomesoplenty-neoforge-26.2-1.6.jar",
+                      "sha256":  "cbae2b92fccb470509afd3e0be25a690a9986bd0781fbc608bca1cff1b10df37",
+                      "size":  7575820,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcwbiomesoplenty-neoforge-26.2-1.6.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-bridges-3.1.2-mc26.2neoforge.jar",
+                      "sha256":  "ec54a55645a11f6222c6ff02896273ce593cb5ac14e6e46d7c3157275aea03c8",
+                      "size":  677014,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-bridges-3.1.2-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-doors-1.1.5-mc26.2neoforge.jar",
+                      "sha256":  "afdb6acd359ba3b1d57ea6d34285a13e37dee7aae47801232d4f0c2bd320e2ce",
+                      "size":  1349249,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-doors-1.1.5-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-fences-1.2.1-mc26.2neoforge.jar",
+                      "sha256":  "707f5c253e5c2871671b45abc2d3c86a8c9901c1ffed80c6fa4c74c9353aacba",
+                      "size":  697795,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-fences-1.2.1-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-furniture-3.4.2-mc26.2neoforge.jar",
+                      "sha256":  "2326be491b94ef91257e5b8ba7ee191057d97c7004168b927dbfef82a2387486",
+                      "size":  2271288,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-furniture-3.4.2-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-lights-1.1.5-mc26.2neoforge.jar",
+                      "sha256":  "093aaafb23cfab3d5b20829713b69dddeee3c3dc8213a11788a989b196716886",
+                      "size":  533696,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-lights-1.1.5-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-paths-1.1.1-mc26.2neoforge.jar",
+                      "sha256":  "ac6a6c5acf005921386edf633f95ba0646479a08a34518980a59977e9ed76cb7",
+                      "size":  786006,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-paths-1.1.1-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-trapdoors-1.1.5-mc26.2neoforge.jar",
+                      "sha256":  "9928c8006354cb81fc2a986b053efa423b1ee573976a52fa8f26d515efb9cdfc",
+                      "size":  621940,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-trapdoors-1.1.5-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/mcw-windows-2.4.2-mc26.2neoforge.jar",
+                      "sha256":  "a7712fa46742523b8ffa76d92d1ebbe7b4c60eafaa4000e1bfba74685a0ab97a",
+                      "size":  1324783,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mcw-windows-2.4.2-mc26.2neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/Mekanism-26.2-10.8.0.balanced-all.jar",
+                      "sha256":  "efc97c6efb378011016dcc1483ef6d2b31b1988c46bc337725338e1f117315bb",
+                      "size":  14728155,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Mekanism-26.2-10.8.0.balanced-all.jar"
+                  },
+                  {
+                      "path":  "mods/MoogsMissingVillages-1.21-2.1.2.jar",
+                      "sha256":  "971966a8ad9721b9a8393d362e5f323bc63e61d9596f34183d6186b3b4c2b610",
+                      "size":  599142,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/MoogsMissingVillages-1.21-2.1.2.jar"
+                  },
+                  {
+                      "path":  "mods/MoogsNetherStructures-1.21-3.0.0.jar",
+                      "sha256":  "024bce3098fcba6b7eb55f3526708cbf9dfdf3b074da057ce72b896a2567a6af",
+                      "size":  3794509,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/MoogsNetherStructures-1.21-3.0.0.jar"
+                  },
+                  {
+                      "path":  "mods/MoogsStructureLib-neoforge-26.2-3.1.2.jar",
+                      "sha256":  "bc83db3421cc761458fe62ed459e7b6385d8181d0fa5745e1331e7492ada18e9",
+                      "size":  414254,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/MoogsStructureLib-neoforge-26.2-3.1.2.jar"
+                  },
+                  {
+                      "path":  "mods/mythicupgrades-neoforge-26.2-5.1.0.jar",
+                      "sha256":  "44f146132d0cb20cf327028ba7050fa29d18226f4e03398723fd124299c3dcb9",
+                      "size":  2207686,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/mythicupgrades-neoforge-26.2-5.1.0.jar"
+                  },
+                  {
+                      "path":  "mods/NaturesCompass-26.2-3.3.0-neoforge.jar",
+                      "sha256":  "ac568392bc8d6cebe99c3a4ef317826b5b481921589b574de43297fdd7b8c673",
+                      "size":  225546,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/NaturesCompass-26.2-3.3.0-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/Nullscape_26.2_v1.2.20.jar",
+                      "sha256":  "21aff09a80c18670689a104f461d2e03b75a711c0820269de467db0f7c2abace",
+                      "size":  346840,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Nullscape_26.2_v1.2.20.jar"
+                  },
+                  {
+                      "path":  "mods/ohthetreesyoullgrow-neoforge-26.2-11.0.1.jar",
+                      "sha256":  "d7d1e36ac4851ee903da39be4cb83ba7062d136cecd36bff8d1e70660f24cef0",
+                      "size":  147471,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/ohthetreesyoullgrow-neoforge-26.2-11.0.1.jar"
+                  },
+                  {
+                      "path":  "mods/onesleep-1.0.1.jar",
+                      "sha256":  "ff36011b39a1e8d8479cc55a9cbe772aaff63c0e957ca0a4dfabf6e0b5ed48a7",
+                      "size":  6304,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/onesleep-1.0.1.jar"
+                  },
+                  {
+                      "path":  "mods/oreharvester-26.2.0-1.6.jar",
+                      "sha256":  "dd135b013d808d4ec5c5e0cdc4f8d122f5858549130f2f38af69ff0ce92f690c",
+                      "size":  86476,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/oreharvester-26.2.0-1.6.jar"
+                  },
+                  {
+                      "path":  "mods/physics-mod-pro-v187j-neoforge-mc-26.2.jar",
+                      "sha256":  "3a883b31545b6c3fc37d8491a7935fe232f5aab85a856fd0702da34099d07f35",
+                      "size":  89514950,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/physics-mod-pro-v187j-neoforge-mc-26.2.jar"
+                  },
+                  {
+                      "path":  "mods/PlayerAnimationLibMerged-1.2.6+mc.26.2.jar",
+                      "sha256":  "97af3288dd39643bf3607bf9ff5c3293022793559236586a6783fe71dd66e6bd",
+                      "size":  419757,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/PlayerAnimationLibMerged-1.2.6%2Bmc.26.2.jar"
+                  },
+                  {
+                      "path":  "mods/PuzzlesLib-v26.2.3-mc26.2.x-NeoForge.jar",
+                      "sha256":  "44a871014da0de73be3f3efaa00d00c72e3cc1eb77c4750f8cf0c695a9e36e00",
+                      "size":  1072529,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/PuzzlesLib-v26.2.3-mc26.2.x-NeoForge.jar"
+                  },
+                  {
+                      "path":  "mods/refurbished_furniture-neoforge-26.2-1.0.25.jar",
+                      "sha256":  "2d7399644deeb6109208c34eb753ad58ef21cd7322e5f6c5d9682d54acd4b2b3",
+                      "size":  7312090,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/refurbished_furniture-neoforge-26.2-1.0.25.jar"
+                  },
+                  {
+                      "path":  "mods/repurposed_structures-7.7.6+26.2-neoforge.jar",
+                      "sha256":  "c10ca74311cf631720c0d3177adac999661fe7b5b9e56a4fdd7613504518f4f9",
+                      "size":  8120436,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/repurposed_structures-7.7.6%2B26.2-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/ResourcefulConfig-5.0.0.jar",
+                      "sha256":  "7264311c5c479a6b5b521c014af20ebd2e138abd06372f5641d238eb9dc3d1d6",
+                      "size":  422624,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/ResourcefulConfig-5.0.0.jar"
+                  },
+                  {
+                      "path":  "mods/ResourcefulLib-5.0.3.jar",
+                      "sha256":  "7edd37a7c3e0ecb9c787f21ed53f3f19bffb6a12cf9477602ea3547b9b00869c",
+                      "size":  447878,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/ResourcefulLib-5.0.3.jar"
+                  },
+                  {
+                      "path":  "mods/respawningstructures-26.2-4.4.jar",
+                      "sha256":  "ab2db93da6d6bd8825b9baae4677089dd6d5b5fe8b04cbb0e430e2020437bf6c",
+                      "size":  72233,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/respawningstructures-26.2-4.4.jar"
+                  },
+                  {
+                      "path":  "mods/SereneSeasons-neoforge-26.2-26.1.2.0.4.jar",
+                      "sha256":  "75d175601ac982cbae9c245d893e8711254d1f008d3b5683cbb85f2ad2cb32c4",
+                      "size":  170996,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/SereneSeasons-neoforge-26.2-26.1.2.0.4.jar"
+                  },
+                  {
+                      "path":  "mods/shogi-neoforge-26.2-26.2.0.5.jar",
+                      "sha256":  "b25b15ca2050b1a5868438e9b81a3a6c2b81f80c948ef4d5cb954aea7475dda0",
+                      "size":  450953,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/shogi-neoforge-26.2-26.2.0.5.jar"
+                  },
+                  {
+                      "path":  "mods/SimpleBackups-26.2.3.jar",
+                      "sha256":  "11980689ae16f8136c7ef665e2745d6497484f946ff60d4c61213bc51e3ebc29",
+                      "size":  341976,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/SimpleBackups-26.2.3.jar"
+                  },
+                  {
+                      "path":  "mods/SmoothPlayerAnimations_Neoforge_26.2_1.0.4.jar",
+                      "sha256":  "872becd8227bd39410ebcd18ee61148b00f24e60acb49dc2debdb5fec99f98fb",
+                      "size":  380144,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/SmoothPlayerAnimations_Neoforge_26.2_1.0.4.jar"
+                  },
+                  {
+                      "path":  "mods/sodium-extra-neoforge-0.9.4+mc26.2.jar",
+                      "sha256":  "6e84b70228aba1183e276b783caa52f693ac7e436fd4ad7281d117ffee046696",
+                      "size":  484393,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/sodium-extra-neoforge-0.9.4%2Bmc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/sodium-neoforge-0.9.2+mc26.2.jar",
+                      "sha256":  "8364f21b122ffe975392dea12eba0b3bc90609c982113e92dc2e30df2c335805",
+                      "size":  1209565,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/sodium-neoforge-0.9.2%2Bmc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/sophisticatedcore-26.2-1.4.104.2315.jar",
+                      "sha256":  "59475775c54e521d56f4312216d37b03eee91cd584034677220aea6d56a08445",
+                      "size":  1733060,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/sophisticatedcore-26.2-1.4.104.2315.jar"
+                  },
+                  {
+                      "path":  "mods/sophisticatedstorage-26.2-1.5.113.2122.jar",
+                      "sha256":  "c1aa39127bbb3d819d23f62e6fa14bec8bf2eb9bf26ccbb28fad7b99277c3488",
+                      "size":  1924326,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/sophisticatedstorage-26.2-1.5.113.2122.jar"
+                  },
+                  {
+                      "path":  "mods/SpiderOverhaul-0.0.6-NeoForge-v26.2.jar",
+                      "sha256":  "fa8277deaaa1ecb1706fb1403c67d420497fc861e47542c485b9e36f2ff7bdb2",
+                      "size":  523200,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/SpiderOverhaul-0.0.6-NeoForge-v26.2.jar"
+                  },
+                  {
+                      "path":  "mods/Stoneworks-v26.2.0-mc26.2.x-NeoForge.jar",
+                      "sha256":  "125c1a05c00c851183c67af8915692eafaa9785fbf7960e7ca9d8bffa62d52e9",
+                      "size":  2351792,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Stoneworks-v26.2.0-mc26.2.x-NeoForge.jar"
+                  },
+                  {
+                      "path":  "mods/StreamsReflowing-26.2-neoforge-2.13.1.jar",
+                      "sha256":  "130e51e125ba864369b9fd04a8eb04ceeeaef144e43a14cc4b55fd2526e8bba4",
+                      "size":  2646987,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/StreamsReflowing-26.2-neoforge-2.13.1.jar"
+                  },
+                  {
+                      "path":  "mods/Structory_26.2_v1.3.7.jar",
+                      "sha256":  "e9079b2bb9bc2efb9b0f1244376488e41f8b50f25415094d8f03dc753cdfb131",
+                      "size":  1261346,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Structory_26.2_v1.3.7.jar"
+                  },
+                  {
+                      "path":  "mods/structurerarity-1.0.0+26.2.jar",
+                      "sha256":  "ed48a2a71e2b596d0648d7a8e2ecd2997d681170e53e302afd80ec3da75feebf",
+                      "size":  29264,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/structurerarity-1.0.0%2B26.2.jar"
+                  },
+                  {
+                      "path":  "mods/supplementaries-neoforge-26.2-3.9.9-port.jar",
+                      "sha256":  "9fcb38b7ef32375910b975a5d4a35752b5e649d6cadc541dec54b9c258f0a10b",
+                      "size":  15404440,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/supplementaries-neoforge-26.2-3.9.9-port.jar"
+                  },
+                  {
+                      "path":  "mods/t_and_t-fabric-neoforge-1.13.11.jar",
+                      "sha256":  "13b38f18cff6103b02f2b7d768b0d495edb8969df724e1538e13ce5bcc05f8be",
+                      "size":  3566810,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/t_and_t-fabric-neoforge-1.13.11.jar"
+                  },
+                  {
+                      "path":  "mods/tectonic-3.0.27-neoforge-26.2.jar",
+                      "sha256":  "92041004197a8a803297a901093611cbc80f41935869bec62d770022c9cd7729",
+                      "size":  456555,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/tectonic-3.0.27-neoforge-26.2.jar"
+                  },
+                  {
+                      "path":  "mods/TerraBlender-neoforge-26.2-26.2.0.0.1.jar",
+                      "sha256":  "b4000a560c8db286c0458836de350c0b980550854f575df0a7b8f8674ff5389d",
+                      "size":  126213,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/TerraBlender-neoforge-26.2-26.2.0.0.1.jar"
+                  },
+                  {
+                      "path":  "mods/Terralith_26.2_v2.6.4_Neoforge.jar",
+                      "sha256":  "a9339c82a77a15cac5ba8d7b53b34332b73242f5579e6a33ce31b528f0c18666",
+                      "size":  2975530,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Terralith_26.2_v2.6.4_Neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/TinkersConstruct-26.2-3.12.1.jar",
+                      "sha256":  "45d56d894420196054e857d1d0b80edc9b23d1b2f54a369c4ce992f30ea473c1",
+                      "size":  27823839,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/TinkersConstruct-26.2-3.12.1.jar"
+                  },
+                  {
+                      "path":  "mods/tlc-neoforge-26.2-2.1.1.jar",
+                      "sha256":  "ae27e977ebf21339e89894285a291855d1013c8c0938c59116ddcd4d20ae8ea7",
+                      "size":  547863,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/tlc-neoforge-26.2-2.1.1.jar"
+                  },
+                  {
+                      "path":  "mods/totw_modded-neoforge-26.2-1.1.0.jar",
+                      "sha256":  "fe1174f70028231de4d0c25aa2f152149e10df0c08cc11ae53f5d79eb9d73cda",
+                      "size":  280098,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/totw_modded-neoforge-26.2-1.1.0.jar"
+                  },
+                  {
+                      "path":  "mods/travelersbackpack-neoforge-26.2-11.3.2.jar",
+                      "sha256":  "b1992c9722c181f8f158f5c3bd407f344b997e9d48c4a5912d16a3f1f8330166",
+                      "size":  1454477,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/travelersbackpack-neoforge-26.2-11.3.2.jar"
+                  },
+                  {
+                      "path":  "mods/treeharvester-26.2.0-9.4.jar",
+                      "sha256":  "008535b661f32e7dc2dc339551fd449228c0bd567a3a7290e43ae789dab6adcd",
+                      "size":  123194,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/treeharvester-26.2.0-9.4.jar"
+                  },
+                  {
+                      "path":  "mods/trek-B0.6.2.jar",
+                      "sha256":  "5ea0837a4b1ef02cc702d7e7e49a245f4857591696183b9d2fe56c574cbfc022",
+                      "size":  12461621,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/trek-B0.6.2.jar"
+                  },
+                  {
+                      "path":  "mods/twilightforest.re26-26.2-4.8.4208-universal.jar",
+                      "sha256":  "a11dab61dae10ac7ddc0569309359fe8b03dfd8ea6e8abce84c1d6e92ca49472",
+                      "size":  22869376,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/twilightforest.re26-26.2-4.8.4208-universal.jar"
+                  },
+                  {
+                      "path":  "mods/underground-rivers-1.0.3-neoforge-26.2.jar",
+                      "sha256":  "79ce69cb27ba0f1aed0c54519f036ad964bf8782be682b657a1c7d1d49d3471b",
+                      "size":  40476,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/underground-rivers-1.0.3-neoforge-26.2.jar"
+                  },
+                  {
+                      "path":  "mods/vanillazoom-26.2.0-3.1.jar",
+                      "sha256":  "9a08e6f06d9dab679ff64711730603cc76ba18bd971a0cf079a0a96c910b8038",
+                      "size":  37391,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/vanillazoom-26.2.0-3.1.jar"
+                  },
+                  {
+                      "path":  "mods/walllanterns-3.1.3.jar",
+                      "sha256":  "6c9b9ab14df59a754ab7e92a3ca7f09ffd24940fadffee1cd26c6e69e39bf094",
+                      "size":  48121,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/walllanterns-3.1.3.jar"
+                  },
+                  {
+                      "path":  "mods/waystones-neoforge-26.2-26.2.0.9.jar",
+                      "sha256":  "5b9e47b8f94a3a544e828a8063a088fc2d832b36d33a22f7f0167610a624f4c1",
+                      "size":  1182115,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/waystones-neoforge-26.2-26.2.0.9.jar"
+                  },
+                  {
+                      "path":  "mods/worldweaver-26.2.2.jar",
+                      "sha256":  "44f7045aa82e622a789fe1d972bc79601149a76c745303034cc48673f3fe1864",
+                      "size":  2259778,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/worldweaver-26.2.2.jar"
+                  },
+                  {
+                      "path":  "mods/wunderlib-26.2.0.jar",
+                      "sha256":  "b97af1a4e6d653df319d0b9bf985a08f5f30fc6a00b18e01d6e82ab4897a79e6",
+                      "size":  382811,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/wunderlib-26.2.0.jar"
+                  }
+              ]
+}
