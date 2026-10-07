@@ -1,10 +1,17 @@
 {
     "version":  "29cd735f58b5",
-    "published":  "2026-10-07 17:00",
-    "notes":  "Initial modpack",
+    "published":  "2026-10-07 17:15",
+    "notes":  "Updater now shows what changed",
     "managedFolders":  [
                            "mods"
                        ],
+    "tool":  {
+                 "sha256":  "c11d72670f237a7abe0349ad007b33c9dda920b1dee6bba8a04b380ba0653b36",
+                 "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
+             },
+    "history":  [
+
+                ],
     "files":  [
                   {
                       "path":  "mods/[Neoforge]ctov-26-2-4.1.0.jar",
