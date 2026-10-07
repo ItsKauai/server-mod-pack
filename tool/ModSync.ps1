@@ -135,6 +135,12 @@ try {
         if ((Msg $body 'YesNo' 'Question') -ne 'Yes') { exit 0 }
     }
 
+    # Replaced/removed mods go to a backup folder (never loaded by the game); purge backups older than 7 days.
+    $bk = Join-Path $InstanceDir '.modsync-backup'
+    if (Test-Path -LiteralPath $bk) {
+        Get-ChildItem -LiteralPath $bk -Directory | Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-7) } |
+            ForEach-Object { [IO.Directory]::Delete($_.FullName, $true) }
+    }
     $backup = Join-Path $InstanceDir ('.modsync-backup\' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
     foreach ($f in $remove) {
         New-Item -ItemType Directory -Force $backup | Out-Null

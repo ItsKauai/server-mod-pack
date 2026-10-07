@@ -1,16 +1,31 @@
 {
-    "version":  "29cd735f58b5",
-    "published":  "2026-10-07 17:15",
-    "notes":  "Updater now shows what changed",
+    "version":  "b04e5d92b654",
+    "published":  "2026-10-07 17:20",
+    "notes":  "Added Scarecrows\u0027 Territory (keeps spawners active) + its 2 required libs. Old versions are now auto-cleaned.",
     "managedFolders":  [
                            "mods"
                        ],
     "tool":  {
-                 "sha256":  "c11d72670f237a7abe0349ad007b33c9dda920b1dee6bba8a04b380ba0653b36",
+                 "sha256":  "982697fe1f78cc8a0601d7183061cff4e10a903dba3e860728c4572cbcc4abbf",
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [
+                    {
+                        "version":  "b04e5d92b654",
+                        "published":  "2026-10-07 17:20",
+                        "notes":  "Added Scarecrows\u0027 Territory (keeps spawners active) + its 2 required libs. Old versions are now auto-cleaned.",
+                        "added":  [
+                                      "scarecrowsterritory-1.1.12-neoforge-mc26.2",
+                                      "supermartijn642configlib-1.1.8a-neoforge-mc26.2",
+                                      "supermartijn642corelib-1.1.25-neoforge-mc26.2"
+                                  ],
+                        "updated":  [
 
+                                    ],
+                        "removed":  [
+
+                                    ]
+                    }
                 ],
     "files":  [
                   {
@@ -662,6 +677,12 @@
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/respawningstructures-26.2-4.4.jar"
                   },
                   {
+                      "path":  "mods/scarecrowsterritory-1.1.12-neoforge-mc26.2.jar",
+                      "sha256":  "19139e27fbfe7c91be9b338c84bbfc382358d5012a23feabaaae382272ef3260",
+                      "size":  443818,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/scarecrowsterritory-1.1.12-neoforge-mc26.2.jar"
+                  },
+                  {
                       "path":  "mods/SereneSeasons-neoforge-26.2-26.1.2.0.4.jar",
                       "sha256":  "75d175601ac982cbae9c245d893e8711254d1f008d3b5683cbb85f2ad2cb32c4",
                       "size":  170996,
@@ -738,6 +759,18 @@
                       "sha256":  "ed48a2a71e2b596d0648d7a8e2ecd2997d681170e53e302afd80ec3da75feebf",
                       "size":  29264,
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/structurerarity-1.0.0%2B26.2.jar"
+                  },
+                  {
+                      "path":  "mods/supermartijn642configlib-1.1.8a-neoforge-mc26.2.jar",
+                      "sha256":  "59b9dd56c7d6c509bf95fbfe2ea40b882e784019cfade5637b29197e30f9c62a",
+                      "size":  206426,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/supermartijn642configlib-1.1.8a-neoforge-mc26.2.jar"
+                  },
+                  {
+                      "path":  "mods/supermartijn642corelib-1.1.25-neoforge-mc26.2.jar",
+                      "sha256":  "f24f62bf2523d18a8e88048b71aafd3c1b1e385d6da5193195ab9132bd1f631e",
+                      "size":  594850,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/supermartijn642corelib-1.1.25-neoforge-mc26.2.jar"
                   },
                   {
                       "path":  "mods/supplementaries-neoforge-26.2-3.9.9-port.jar",
