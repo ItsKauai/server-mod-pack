@@ -1,12 +1,12 @@
 {
     "version":  "b04e5d92b654",
-    "published":  "2026-10-07 17:20",
-    "notes":  "Added Scarecrows\u0027 Territory (keeps spawners active) + its 2 required libs. Old versions are now auto-cleaned.",
+    "published":  "2026-10-07 18:00",
+    "notes":  "",
     "managedFolders":  [
                            "mods"
                        ],
     "tool":  {
-                 "sha256":  "982697fe1f78cc8a0601d7183061cff4e10a903dba3e860728c4572cbcc4abbf",
+                 "sha256":  "ed03e46307c18d59779ad53ae71b4ef6ce0cabeedcc23670a3f0b58ab2dfb0b7",
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [

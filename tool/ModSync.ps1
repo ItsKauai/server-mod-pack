@@ -9,7 +9,8 @@
 param(
     [string]$InstanceDir = $env:INST_MC_DIR,
     [switch]$Auto,
-    [switch]$NoSelfUpdate
+    [switch]$NoSelfUpdate,
+    [switch]$NoToast   # test only: don't show the little status notice
 )
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
@@ -18,6 +19,29 @@ Add-Type -AssemblyName System.Windows.Forms
 
 function Msg($text, $buttons = 'OK', $icon = 'Information') {
     [Windows.Forms.MessageBox]::Show($text, 'Mod Sync', $buttons, $icon)
+}
+function Show-Toast($text, $ms = 2500) {
+    if ($NoToast) { return }
+    try {
+        $script:toast = New-Object Windows.Forms.Form
+        $script:toast.FormBorderStyle = 'None'
+        $script:toast.StartPosition = 'Manual'
+        $script:toast.TopMost = $true
+        $script:toast.ShowInTaskbar = $false
+        $script:toast.Size = New-Object Drawing.Size(360, 64)
+        $script:toast.BackColor = [Drawing.Color]::FromArgb(32, 34, 37)
+        $wa = [Windows.Forms.Screen]::PrimaryScreen.WorkingArea
+        $script:toast.Location = New-Object Drawing.Point(($wa.Right - 372), ($wa.Bottom - 76))
+        $lbl = New-Object Windows.Forms.Label
+        $lbl.Text = $text; $lbl.ForeColor = [Drawing.Color]::White; $lbl.Dock = 'Fill'
+        $lbl.TextAlign = 'MiddleCenter'; $lbl.Font = New-Object Drawing.Font('Segoe UI', 10)
+        $script:toast.Controls.Add($lbl)
+        $timer = New-Object Windows.Forms.Timer
+        $timer.Interval = $ms
+        $timer.Add_Tick({ param($s, $e) $s.Stop(); $script:toast.Close() })
+        $script:toast.Add_Shown({ $timer.Start() })
+        [void]$script:toast.ShowDialog()
+    } catch { }
 }
 function Get-Base($name) {
     $n = [IO.Path]::GetFileNameWithoutExtension($name)
@@ -58,6 +82,7 @@ try {
         $m = Invoke-RestMethod -Uri ($cfg.manifestUrl + '?t=' + [guid]::NewGuid().ToString('N')) -TimeoutSec 15
     } catch {
         # Offline or host down: never block the game from launching.
+        Show-Toast 'Mod Sync: update server not reachable - skipping.'
         exit 0
     }
 
@@ -108,6 +133,7 @@ try {
 
     if ($download.Count -eq 0 -and $remove.Count -eq 0) {
         Set-Content $stateFile $m.version
+        Show-Toast "Mod Sync: your mods are up to date (v$($m.version))"
         exit 0
     }
 
