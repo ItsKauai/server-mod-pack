@@ -1,7 +1,7 @@
 {
-    "version":  "b04e5d92b654",
-    "published":  "2026-10-07 18:18",
-    "notes":  "",
+    "version":  "b9f467f569eb",
+    "published":  "2026-10-08 01:26",
+    "notes":  "Added Nemo\u0027s Inventory Sorting",
     "managedFolders":  [
                            "mods"
                        ],
@@ -10,6 +10,20 @@
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [
+                    {
+                        "version":  "b9f467f569eb",
+                        "published":  "2026-10-08 01:26",
+                        "notes":  "Added Nemo\u0027s Inventory Sorting",
+                        "added":  [
+                                      "nemos-inventory-sorting-NeoForge-26.2-1.22"
+                                  ],
+                        "updated":  [
+
+                                    ],
+                        "removed":  [
+
+                                    ]
+                    },
                     {
                         "version":  "b04e5d92b654",
                         "published":  "2026-10-07 17:20",
@@ -603,6 +617,12 @@
                       "sha256":  "ac568392bc8d6cebe99c3a4ef317826b5b481921589b574de43297fdd7b8c673",
                       "size":  225546,
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/NaturesCompass-26.2-3.3.0-neoforge.jar"
+                  },
+                  {
+                      "path":  "mods/nemos-inventory-sorting-NeoForge-26.2-1.22.jar",
+                      "sha256":  "85313af0ad8b71166fde49e789b80384f88cf9a5f011ed2e29d0632197e7c6ba",
+                      "size":  166971,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/nemos-inventory-sorting-NeoForge-26.2-1.22.jar"
                   },
                   {
                       "path":  "mods/Nullscape_26.2_v1.2.20.jar",
