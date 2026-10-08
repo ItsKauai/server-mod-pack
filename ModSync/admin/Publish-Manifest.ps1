@@ -17,6 +17,7 @@ param(
     [Parameter(Mandatory)][string]$Source,
     [Parameter(Mandatory)][string]$BaseUrl,
     [string[]]$Folders = @('mods'),
+    [string[]]$SyncOnlyFolders = @('config'),   # settings files: sent to players, updated when they change, never deleted
     [string]$Notes = '',
     [string]$ToolScript = (Join-Path $PSScriptRoot '..\resources\ModSync.ps1')
 )
@@ -64,6 +65,21 @@ $files = foreach ($folder in $Folders) {
             url    = $url
         }
     }
+}
+$files = @($files)
+foreach ($folder in $SyncOnlyFolders) {
+    $dir = Join-Path $Source $folder
+    if (-not (Test-Path -LiteralPath $dir)) { continue }
+    $files += @(Get-ChildItem -LiteralPath $dir -Recurse -File | ForEach-Object {
+        $rel = $_.FullName.Substring($Source.Length + 1).Replace('\', '/')
+        $url = $BaseUrl + '/' + (($rel -split '/' | ForEach-Object { [uri]::EscapeDataString($_) }) -join '/')
+        [ordered]@{
+            path   = $rel
+            sha256 = (Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLower()
+            size   = $_.Length
+            url    = $url
+        }
+    })
 }
 $files = @($files | Sort-Object { $_.path })
 

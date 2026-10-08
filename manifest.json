@@ -1,15 +1,29 @@
 {
-    "version":  "b9f467f569eb",
-    "published":  "2026-10-08 01:26",
-    "notes":  "Added Nemo\u0027s Inventory Sorting",
+    "version":  "0d218b9eb58a",
+    "published":  "2026-10-08 11:13",
+    "notes":  "Structure Rarity settings updated: AE2 meteorites now generate at normal spacing (new chunks only)",
     "managedFolders":  [
                            "mods"
                        ],
     "tool":  {
-                 "sha256":  "ed03e46307c18d59779ad53ae71b4ef6ce0cabeedcc23670a3f0b58ab2dfb0b7",
+                 "sha256":  "80c0685f7ff33d297926512fec850e790d46241187f1e2c04e79ab7dad9db06c",
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [
+                    {
+                        "version":  "0d218b9eb58a",
+                        "published":  "2026-10-08 11:13",
+                        "notes":  "Structure Rarity settings updated: AE2 meteorites now generate at normal spacing (new chunks only)",
+                        "added":  [
+                                      "structurerarity-common"
+                                  ],
+                        "updated":  [
+
+                                    ],
+                        "removed":  [
+
+                                    ]
+                    },
                     {
                         "version":  "b9f467f569eb",
                         "published":  "2026-10-08 01:26",
@@ -42,6 +56,12 @@
                     }
                 ],
     "files":  [
+                  {
+                      "path":  "config/structurerarity-common.toml",
+                      "sha256":  "6fdfd01a70122d92a20e3279ef6053fdcf7f1be012851b40df5ad0463195da15",
+                      "size":  6291,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/config/structurerarity-common.toml"
+                  },
                   {
                       "path":  "mods/[Neoforge]ctov-26-2-4.1.0.jar",
                       "sha256":  "c3244e7262617dc69f4fa27016883107d026295c47aca5929ce39b1f51651e03",

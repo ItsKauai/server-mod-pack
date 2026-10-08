@@ -1,0 +1,129 @@
+#General settings. Structure changes only affect NEW chunks; already-explored land keeps its structures.
+[general]
+	#Master switch for structure spacing changes.
+	enabled = true
+	#Multiplies every tier distance below. 0.5 = twice as dense, 2.0 = even rarer.
+	# Default: 1.0
+	# Range: 0.05 ~ 20.0
+	globalMultiplier = 1.0
+	#Center of the world used for the spawn exclusion zone and loot distance (normally 0,0 = spawn).
+	# Default: 0
+	# Range: -30000000 ~ 30000000
+	centerX = 0
+	# Default: 0
+	# Range: -30000000 ~ 30000000
+	centerZ = 0
+	#Never make a structure MORE common than its mod made it.
+	onlyIncrease = true
+
+#No structures spawn inside these radiuses around the center.
+[spawnExclusion]
+	#Blocks from center where no structures generate (0 = off).
+	# Default: 2000
+	# Range: 0 ~ 100000
+	radius = 2000
+	#Villages/towns use this smaller radius so early trading still exists.
+	# Default: 500
+	# Range: 0 ~ 100000
+	villageRadius = 500
+	#In the Nether, divide spacing and exclusion distances by 8 (1 Nether block = 8 Overworld blocks). The End never has an exclusion zone.
+	netherScaled = true
+
+#Tier distances in blocks. 'spacing' is the size of the grid cell that holds ONE structure of a set,
+#'separation' is the minimum gap. Neighbours end up roughly between separation and 2*spacing-separation apart.
+[tiers]
+	#Small ruins, huts, camps, wells (~2,500-5,500 apart).
+	# Default: 4000
+	# Range: 32 ~ 60000
+	smallSpacing = 4000
+	# Default: 2500
+	# Range: 16 ~ 60000
+	smallSeparation = 2500
+	#Villages and towns (~3,500-7,500 apart).
+	# Default: 5500
+	# Range: 32 ~ 60000
+	villageSpacing = 5500
+	# Default: 3500
+	# Range: 16 ~ 60000
+	villageSeparation = 3500
+	#Dungeons, temples, towers, monuments (~6,500-13,500 apart).
+	# Default: 10000
+	# Range: 32 ~ 60000
+	largeSpacing = 10000
+	# Default: 6500
+	# Range: 16 ~ 60000
+	largeSeparation = 6500
+	#Castles, mansions, cities (~13,000-27,000 apart).
+	# Default: 20000
+	# Range: 32 ~ 60000
+	legendarySpacing = 20000
+	# Default: 13000
+	# Range: 16 ~ 60000
+	legendarySeparation = 13000
+
+#How structure sets get sorted into tiers. Check config/structurerarity-report.txt after a server start
+#to see every structure set in your pack and the tier it got.
+[classification]
+	#Per structure set overrides: 'namespace:set=TIER' (vanilla, small, village, large, legendary)
+	#or 'namespace:set=spacing,separation' in blocks. 'vanilla' leaves the set completely untouched.
+	#Strongholds are never touched (eyes of ender keep working).
+	overrides = ["ae2:meteorite=vanilla", "minecraft:mineshafts=vanilla", "minecraft:buried_treasures=vanilla", "minecraft:nether_fossils=vanilla", "minecraft:nether_complexes=vanilla", "minecraft:end_cities=vanilla", "minecraft:villages=village", "minecraft:pillager_outposts=6500,4000", "minecraft:desert_pyramids=5500,3500", "minecraft:jungle_temples=5500,3500", "minecraft:ocean_monuments=6500,4000", "minecraft:trial_chambers=village", "minecraft:ancient_cities=8500,6000", "minecraft:woodland_mansions=legendary", "minecraft:igloos=small", "minecraft:swamp_huts=small", "minecraft:shipwrecks=small", "minecraft:ocean_ruins=small", "minecraft:trail_ruins=small", "minecraft:ruined_portals=small", "dungeoncrawl:dungeons=30000,20000"]
+	#Name keywords (whole words in the set or structure id) that mark a modded structure as legendary.
+	legendaryKeywords = ["mansion", "castle", "citadel", "palace", "kingdom", "colosseum", "cathedral", "metropolis", "city", "ziggurat", "sanctum", "keep"]
+	#Keywords for villages/towns (checked after legendary).
+	villageKeywords = ["village", "town", "hamlet", "settlement"]
+	#Keywords for large structures (checked after village).
+	largeKeywords = ["dungeon", "temple", "tower", "monument", "stronghold", "warship", "arena", "pyramid", "labyrinth", "maze", "crypt", "catacomb", "catacombs", "outpost", "lighthouse", "spire", "mausoleum", "bastion", "fort", "ship", "complex", "mine", "tavern", "manor"]
+	#Tier for structures that match no keyword.
+	defaultTier = "small"
+	#Sets whose original spacing is this many chunks or less are treated as 'features'
+	#(mineshaft-style, rolled per chunk) and left vanilla unless overridden.
+	# Default: 4
+	# Range: 0 ~ 64
+	minorSpacingChunks = 4
+
+#Distance-scaled chest loot. Distance is measured from the center to the chest.
+[loot]
+	enabled = true
+	#Chests closer than this are 'near' (survival tier: valuables can be stripped).
+	# Default: 3000
+	# Range: 0 ~ 1000000
+	nearEnd = 3000
+	#Chests at least this far are 'far' (extra rolls + bonus loot).
+	# Default: 8000
+	# Range: 0 ~ 1000000
+	farStart = 8000
+	#Chests at least this far are 'deep' (even more extra loot).
+	# Default: 15000
+	# Range: 0 ~ 1000000
+	deepStart = 15000
+	#The End is small, so End chests are treated as if they were this far away.
+	# Default: 10000
+	# Range: 0 ~ 1000000
+	endDistance = 10000
+	#In near chests, each valuable stack is removed with this chance.
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	nearRemoveChance = 0.6
+	#Items counted as valuable (besides anything Rare/Epic rarity or with 'diamond'/'netherite' in its id).
+	valuableItems = ["minecraft:emerald", "minecraft:golden_apple", "minecraft:enchanted_book", "minecraft:totem_of_undying", "minecraft:saddle", "minecraft:experience_bottle", "minecraft:name_tag"]
+	#Extra times the chest's own loot table is rolled in far chests.
+	# Default: 1
+	# Range: 0 ~ 10
+	farExtraRolls = 1
+	# Default: 2
+	# Range: 0 ~ 10
+	deepExtraRolls = 2
+	#Chance per bonus roll to add an item from the bonus pool.
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	farBonusChance = 0.4
+	# Default: 0.7
+	# Range: 0.0 ~ 1.0
+	deepBonusChance = 0.7
+	#Bonus pool entries: 'item;min;max;weight;minTier' where minTier is far or deep.
+	bonusPool = ["minecraft:diamond;1;3;10;far", "minecraft:emerald;2;6;14;far", "minecraft:golden_apple;1;2;10;far", "minecraft:experience_bottle;4;12;12;far", "minecraft:ender_pearl;2;6;8;far", "minecraft:name_tag;1;1;5;far", "minecraft:diamond;3;6;8;deep", "minecraft:enchanted_golden_apple;1;1;2;deep", "minecraft:netherite_scrap;1;2;3;deep", "minecraft:totem_of_undying;1;1;2;deep", "minecraft:heart_of_the_sea;1;1;1;deep"]
+	#A loot table is treated as a structure chest if its id contains any of these.
+	tableMatch = ["chests/", "chest"]
+	#Loot tables never touched.
+	tableExclude = ["minecraft:chests/spawn_bonus_chest"]

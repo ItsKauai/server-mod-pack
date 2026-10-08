@@ -138,7 +138,10 @@ try {
     }
 
     if (-not $Auto) {
-        $newNames = @($m.files | ForEach-Object { Split-Path $_.path -Leaf })
+        # mods = files inside a managed folder; anything else (e.g. config/) is a "settings file": downloaded/updated, never deleted
+        $isMod = { param($path) @($m.managedFolders | Where-Object { $path -like "$_/*" }).Count -gt 0 }
+        $newNames = @($m.files | Where-Object { & $isMod $_.path } | ForEach-Object { Split-Path $_.path -Leaf })
+        $settingsChanged = @($download | Where-Object { -not (& $isMod $_.path) } | ForEach-Object { $_.path })
         $d = Get-Diff $localNames $newNames
         $rebuilt = @($download | Where-Object { $localNames -contains (Split-Path $_.path -Leaf) } |
             ForEach-Object { [IO.Path]::GetFileNameWithoutExtension((Split-Path $_.path -Leaf)) + ' (re-downloaded)' })
@@ -147,6 +150,7 @@ try {
         $body += Section 'ADDED' $d.Added
         $body += Section 'UPDATED' (@($d.Updated) + $rebuilt)
         $body += Section 'REMOVED' $d.Removed
+        $body += Section 'SETTINGS FILES UPDATED' $settingsChanged
 
         # Patch notes since the player's last version (up to 5, newest first)
         $notes = @()
