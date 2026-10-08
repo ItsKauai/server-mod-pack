@@ -1,7 +1,7 @@
 {
-    "version":  "0d218b9eb58a",
-    "published":  "2026-10-08 11:13",
-    "notes":  "Structure Rarity settings updated: AE2 meteorites now generate at normal spacing (new chunks only)",
+    "version":  "29aaf17f1c9c",
+    "published":  "2026-10-08 12:44",
+    "notes":  "Added Twilight Gear Lock",
     "managedFolders":  [
                            "mods"
                        ],
@@ -10,6 +10,20 @@
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [
+                    {
+                        "version":  "29aaf17f1c9c",
+                        "published":  "2026-10-08 12:44",
+                        "notes":  "Added Twilight Gear Lock",
+                        "added":  [
+                                      "twilight-gear-lock-1.0.0+26.2"
+                                  ],
+                        "updated":  [
+
+                                    ],
+                        "removed":  [
+
+                                    ]
+                    },
                     {
                         "version":  "0d218b9eb58a",
                         "published":  "2026-10-08 11:13",
@@ -883,6 +897,12 @@
                       "sha256":  "a11dab61dae10ac7ddc0569309359fe8b03dfd8ea6e8abce84c1d6e92ca49472",
                       "size":  22869376,
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/twilightforest.re26-26.2-4.8.4208-universal.jar"
+                  },
+                  {
+                      "path":  "mods/twilight-gear-lock-1.0.0+26.2.jar",
+                      "sha256":  "359ac17cd1ba3f8f2cce426528dfec612c47e39c1be0de05ff383d50e71a7c43",
+                      "size":  9462,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/twilight-gear-lock-1.0.0%2B26.2.jar"
                   },
                   {
                       "path":  "mods/underground-rivers-1.0.3-neoforge-26.2.jar",
