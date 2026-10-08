@@ -1,7 +1,7 @@
 {
-    "version":  "29aaf17f1c9c",
-    "published":  "2026-10-08 12:44",
-    "notes":  "Added Twilight Gear Lock",
+    "version":  "32248f921c41",
+    "published":  "2026-10-08 15:43",
+    "notes":  "Updated Tinkers Construct (new content added)",
     "managedFolders":  [
                            "mods"
                        ],
@@ -10,6 +10,20 @@
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [
+                    {
+                        "version":  "32248f921c41",
+                        "published":  "2026-10-08 15:43",
+                        "notes":  "Updated Tinkers Construct (new content added)",
+                        "added":  [
+
+                                  ],
+                        "updated":  [
+
+                                    ],
+                        "removed":  [
+
+                                    ]
+                    },
                     {
                         "version":  "29aaf17f1c9c",
                         "published":  "2026-10-08 12:44",
@@ -858,8 +872,8 @@
                   },
                   {
                       "path":  "mods/TinkersConstruct-26.2-3.12.1.jar",
-                      "sha256":  "45d56d894420196054e857d1d0b80edc9b23d1b2f54a369c4ce992f30ea473c1",
-                      "size":  27823839,
+                      "sha256":  "246f32b526221c571bd096fbcd6f4a15adfa24dd13f7a31b601d81cfda96b1d1",
+                      "size":  27931637,
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/TinkersConstruct-26.2-3.12.1.jar"
                   },
                   {
