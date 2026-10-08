@@ -18,7 +18,7 @@ param(
     [Parameter(Mandatory)][string]$BaseUrl,
     [string[]]$Folders = @('mods'),
     [string]$Notes = '',
-    [string]$ToolScript = (Join-Path $PSScriptRoot 'player-pack\resources\ModSync.ps1')
+    [string]$ToolScript = (Join-Path $PSScriptRoot '..\resources\ModSync.ps1')
 )
 $ErrorActionPreference = 'Stop'
 $Source = (Resolve-Path $Source).Path.TrimEnd('\')
