@@ -1,7 +1,7 @@
 {
-    "version":  "e083a34dab49",
-    "published":  "2026-10-10 02:07",
-    "notes":  "Mekanism bug fix",
+    "version":  "34579314c67a",
+    "published":  "2026-10-13 13:32",
+    "notes":  "Added spark (performance profiler)",
     "managedFolders":  [
                            "mods"
                        ],
@@ -10,6 +10,20 @@
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [
+                    {
+                        "version":  "34579314c67a",
+                        "published":  "2026-10-13 13:32",
+                        "notes":  "Added spark (performance profiler)",
+                        "added":  [
+                                      "spark-1.10.187-neoforge"
+                                  ],
+                        "updated":  [
+
+                                    ],
+                        "removed":  [
+
+                                    ]
+                    },
                     {
                         "version":  "e083a34dab49",
                         "published":  "2026-10-10 02:07",
@@ -811,6 +825,12 @@
                       "sha256":  "c1aa39127bbb3d819d23f62e6fa14bec8bf2eb9bf26ccbb28fad7b99277c3488",
                       "size":  1924326,
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/sophisticatedstorage-26.2-1.5.113.2122.jar"
+                  },
+                  {
+                      "path":  "mods/spark-1.10.187-neoforge.jar",
+                      "sha256":  "88e7cc1a9ecd4c9ad22434fe2f168155baeb0ce2afba0a30269e542602e9d442",
+                      "size":  3910570,
+                      "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/spark-1.10.187-neoforge.jar"
                   },
                   {
                       "path":  "mods/SpiderOverhaul-0.0.6-NeoForge-v26.2.jar",
