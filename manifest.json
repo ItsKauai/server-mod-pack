@@ -1,7 +1,7 @@
 {
-    "version":  "34579314c67a",
-    "published":  "2026-10-13 13:32",
-    "notes":  "Added spark (performance profiler)",
+    "version":  "c7f13b908230",
+    "published":  "2026-10-13 13:33",
+    "notes":  "Updated Mekanism (newest build) and Applied Energistics 2 (now matches the server)",
     "managedFolders":  [
                            "mods"
                        ],
@@ -10,6 +10,20 @@
                  "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/tool/ModSync.ps1"
              },
     "history":  [
+                    {
+                        "version":  "c7f13b908230",
+                        "published":  "2026-10-13 13:33",
+                        "notes":  "Updated Mekanism (newest build) and Applied Energistics 2 (now matches the server)",
+                        "added":  [
+
+                                  ],
+                        "updated":  [
+
+                                    ],
+                        "removed":  [
+
+                                    ]
+                    },
                     {
                         "version":  "34579314c67a",
                         "published":  "2026-10-13 13:32",
@@ -186,8 +200,8 @@
                   },
                   {
                       "path":  "mods/appliedenergistics2-26.2.1-alpha.jar",
-                      "sha256":  "2345ed127f4ffb8bbd4643c93de3443fe29d89f27a220576b31c858d54357689",
-                      "size":  8396211,
+                      "sha256":  "8e6483052bc01bdbf28fc6ffa1c2c74c3906b78e3183dccc516c6cfe9706b7bf",
+                      "size":  8484392,
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/appliedenergistics2-26.2.1-alpha.jar"
                   },
                   {
@@ -660,8 +674,8 @@
                   },
                   {
                       "path":  "mods/Mekanism-26.2-10.8.0.balanced-all.jar",
-                      "sha256":  "435c7f6b63dc6239f032902e3aebe9c97c58039789fc61e8d3c4fef577539173",
-                      "size":  14728282,
+                      "sha256":  "9859f371a3ad21d9ba40e21e60e6f1bb1ffa7d603bb917ed30213a12c9b60db2",
+                      "size":  14728268,
                       "url":  "https://raw.githubusercontent.com/ItsKauai/server-mod-pack/main/mods/Mekanism-26.2-10.8.0.balanced-all.jar"
                   },
                   {
